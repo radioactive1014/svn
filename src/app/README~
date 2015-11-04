@@ -1,0 +1,17 @@
+
+
+Important files that needed for the project:
+
+ 1.move.cpp   : To set KUKA in command mode. 
+ 2.pbp_feedback.cpp : To control the robot with two joint feedback from the robot. 
+ 
+
+Other files: 
+
+  3. client.cpp:  A simple ros client node.
+  4. fancy.cpp:  Control the KUKA using gesture.(incomplete);
+  5. pbp_double.cpp: For axis control (without joint angle feedback)
+  6. pbp_vel.cpp: For single axis control (without joint angle feedback)	
+  7. pbp_sim_test.cpp: To test the simulation accuracy. Rotate the platform with a fixed velocity. 
+  8. publisher.cpp: A simple ros publisher node. 
+  9. sub.cpp : A simple ros subscriber node.	

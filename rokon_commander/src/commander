@@ -1,0 +1,12 @@
+#include "KUKACommander.hpp"
+#include <rtt/Component.hpp>
+#include <iostream>
+
+#include <kdl/frames.hpp>
+#include <tf_conversions/tf_kdl.h>
+
+
+namespace iros {
+
+	using namespace RTT;
+	using namespace std;

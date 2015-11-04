@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_resources/cmake
+END
+moveit_resourcesConfig.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_resources/cmake/moveit_resourcesConfig.cmake
+END
+moveit_resourcesConfig-version.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_resources/cmake/moveit_resourcesConfig-version.cmake
+END

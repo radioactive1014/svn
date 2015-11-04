@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/common-lisp/ros/app/msg
+END
+_package.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/common-lisp/ros/app/msg/_package.lisp
+END
+_package_cam.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/common-lisp/ros/app/msg/_package_cam.lisp
+END
+cam.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/common-lisp/ros/app/msg/cam.lisp
+END
+app-msg.asd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/common-lisp/ros/app/msg/app-msg.asd
+END

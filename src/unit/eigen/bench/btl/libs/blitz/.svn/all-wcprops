@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/bench/btl/libs/blitz
+END
+blitz_interface.hh
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/bench/btl/libs/blitz/blitz_interface.hh
+END
+tiny_blitz_interface.hh
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/bench/btl/libs/blitz/tiny_blitz_interface.hh
+END
+btl_blitz.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/bench/btl/libs/blitz/btl_blitz.cpp
+END
+btl_tiny_blitz.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/bench/btl/libs/blitz/btl_tiny_blitz.cpp
+END
+blitz_LU_solve_interface.hh
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/bench/btl/libs/blitz/blitz_LU_solve_interface.hh
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/bench/btl/libs/blitz/CMakeLists.txt
+END

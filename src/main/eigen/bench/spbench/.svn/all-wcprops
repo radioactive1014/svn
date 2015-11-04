@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/bench/spbench
+END
+spbenchsolver.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/bench/spbench/spbenchsolver.h
+END
+spbenchstyle.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/bench/spbench/spbenchstyle.h
+END
+spbench.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/bench/spbench/spbench.dtd
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/bench/spbench/CMakeLists.txt
+END
+sp_solver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/bench/spbench/sp_solver.cpp
+END
+spbenchsolver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/bench/spbench/spbenchsolver.cpp
+END
+test_sparseLU.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/bench/spbench/test_sparseLU.cpp
+END

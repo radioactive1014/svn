@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/doc/examples
+END
+MatrixPower.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/doc/examples/MatrixPower.cpp
+END
+MatrixSine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/doc/examples/MatrixSine.cpp
+END
+PolynomialUtils1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/doc/examples/PolynomialUtils1.cpp
+END
+MatrixPower_optimal.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/doc/examples/MatrixPower_optimal.cpp
+END
+MatrixSinh.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/doc/examples/MatrixSinh.cpp
+END
+MatrixSquareRoot.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/doc/examples/MatrixSquareRoot.cpp
+END
+BVH_Example.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/doc/examples/BVH_Example.cpp
+END
+MatrixFunction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/doc/examples/MatrixFunction.cpp
+END
+MatrixExponential.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/doc/examples/MatrixExponential.cpp
+END
+MatrixLogarithm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/doc/examples/MatrixLogarithm.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/doc/examples/CMakeLists.txt
+END
+FFT.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/doc/examples/FFT.cpp
+END
+PolynomialSolver1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/doc/examples/PolynomialSolver1.cpp
+END

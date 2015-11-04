@@ -1,0 +1,104 @@
+/**
+ * Configuration and startup file for the KUKACommander
+ * 
+ * The purpose is to publish relevant information to ROS topics 
+ */
+
+// Load necessary components
+
+import("rtt_rosnode")
+import("ocl")
+import("lwr_fri")
+import("kuka_lwr_fri")
+import("KUKACommander")
+import("Execution")
+import("KUKAInterface")
+
+loadComponent("FRIServer", "lwr_fri::FRIServerRT")
+loadComponent("KUKACommander", "iros::KUKACommander")
+loadComponent("KUKACommanderROS", "iros::KUKACommanderROS")
+loadComponent("Executor", "iros::orocos::pbd::dmp::Executor")
+loadComponent("KUKAInterface", "iros::orocos::pbd::KUKAInterfacePose")
+
+
+// HighestPriority = 99
+// LowestPriority = 1
+
+
+// Not periodic, highest priority, real-time scheduler
+setActivity("FRIServer", 0, HighestPriority, ORO_SCHED_RT)
+FRIServer.udp_port=49938
+
+
+
+// Run timer each 10ms with lowest priority
+//setActivity("Timer", 0.01, LowestPriority, ORO_SCHED_RT)
+setActivity("KUKACommander", 0, 70, ORO_SCHED_RT)
+setActivity("KUKACommanderROS", 0.01, 50, ORO_SCHED_RT)
+setActivity("KUKAInterface", 0.01, 50, ORO_SCHED_RT)
+
+
+addPeer("KUKACommanderROS", "KUKACommander")
+addPeer("KUKAInterface", "KUKACommander")
+addPeer("Executor", "KUKAInterface")
+
+// Standart connection policy
+var ConnPolicy cp
+cp.type = DATA
+
+// Connection between FRIServer and KUKACommander
+connect("FRIServer.fromKRL", "KUKACommander.fromKRL", cp)
+connect("FRIServer.toKRL", "KUKACommander.toKRL", cp)
+
+connect("FRIServer.FRIState", "KUKACommander.FRIState", cp)
+connect("FRIServer.RobotState", "KUKACommander.RobotState", cp)
+
+connect("FRIServer.desJntImpedance", "KUKACommander.desJntImpedance", cp)
+connect("FRIServer.desCartImpedance", "KUKACommander.desCartImpedance", cp)
+
+connect("FRIServer.msrJointState", "KUKACommander.msrJointState", cp)
+connect("FRIServer.msrCartPos", "KUKACommander.msrCartPos", cp)
+connect("FRIServer.msrExtCartWrench", "KUKACommander.msrExtCartWrench", cp)
+
+connect("FRIServer.counter", "Executor.counter", cp)
+
+connect("KUKACommander.desiredJntPos", "FRIServer.desJntPos", cp)
+connect("KUKACommander.desiredJntVel", "FRIServer.desJntVel", cp)
+
+connect("Executor.desState", "KUKAInterface.state", cp)
+connect("KUKAInterface.desPosition", "FRIServer.desCartPos", cp)
+connect("FRIServer.msrCartPos", "KUKAInterface.msrPosition", cp)
+
+connect("KUKAInterface.prepared", "Executor.in_prepared", cp)
+connect("KUKAInterface.start_pos_reached", "Executor.in_start_pos_reached", cp)
+
+connect("Executor.desStartState", "KUKAInterface.start_state", cp)
+
+// Connect certain outputs with ROS topics for simple communication between Orocos and ROS
+
+stream("KUKAInterface.desPositionROS", ros.topic("/iros/pbd/dmp/desPosition"))
+
+stream("Executor.out_prepared", ros.topic("/iros/pbd/dmp/Executor/prepared"))
+stream("Executor.out_finished", ros.topic("/iros/pbd/dmp/Executor/finished"))
+stream("Executor.out_start_pos_reached", ros.topic("/iros/pbd/dmp/Executor/start_pos_reached"))
+
+stream("Executor.prepare", ros.topic("/iros/pbd/dmp/Executor/prepare"))
+stream("Executor.start", ros.topic("/iros/pbd/dmp/Executor/start"))
+stream("Executor.stop", ros.topic("/iros/pbd/dmp/Executor/stop"))
+stream("Executor.startPosition", ros.topic("/iros/pbd/dmp/Executor/startPosition"))
+
+
+// call configure
+FRIServer.configure()
+KUKACommander.configure()
+KUKACommanderROS.configure()
+KUKAInterface.configure()
+Executor.configure()
+
+
+// Start the server
+FRIServer.start()
+KUKACommander.start()
+KUKACommanderROS.start()
+KUKAInterface.start()
+Executor.start()

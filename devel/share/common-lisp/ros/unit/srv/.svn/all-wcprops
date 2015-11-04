@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/common-lisp/ros/unit/srv
+END
+for_double.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/common-lisp/ros/unit/srv/for_double.lisp
+END
+_package_from_robot.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/common-lisp/ros/unit/srv/_package_from_robot.lisp
+END
+_package_for_feedback.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/common-lisp/ros/unit/srv/_package_for_feedback.lisp
+END
+unit-srv.asd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/common-lisp/ros/unit/srv/unit-srv.asd
+END
+from_robot.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/common-lisp/ros/unit/srv/from_robot.lisp
+END
+_package.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/common-lisp/ros/unit/srv/_package.lisp
+END
+_package_for_double.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/common-lisp/ros/unit/srv/_package_for_double.lisp
+END
+for_feedback.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/common-lisp/ros/unit/srv/for_feedback.lisp
+END

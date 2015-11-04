@@ -1,0 +1,91 @@
+/**
+ * Configuration and startup file for the KUKACommander and KUKACommanderROS
+ * 
+ * The purpose is to publish relevant information to ROS topics 
+ */
+
+// Load necessary components
+
+import("rtt_rosnode")
+import("lwr_fri")
+import("kuka_lwr_fri")
+import("KUKACommander")
+import("FTSensor")
+
+loadComponent("FRIServer", "lwr_fri::FRIServerRT")
+loadComponent("FTSensor", "iros::FTSensor")
+loadComponent("KUKACommander", "iros::KUKACommander")
+loadComponent("KUKACommanderROS", "iros::KUKACommanderROS")
+
+
+// HighestPriority = 99
+// LowestPriority = 1
+
+
+// Not periodic, highest priority, real-time scheduler
+//setActivity("FRIServer", 0.0001, HighestPriority, ORO_SCHED_RT)
+setActivity("FRIServer", 0, HighestPriority, ORO_SCHED_RT)
+FRIServer.udp_port=49938
+
+
+// 1000Hz, highest priority, real-time scheduler
+setActivity("FTSensor", 0, HighestPriority, ORO_SCHED_RT)
+
+// Run timer each 10ms with lowest priority
+setActivity("KUKACommander", 0, 70, ORO_SCHED_RT)
+setActivity("KUKACommanderROS", 0.01, 50, ORO_SCHED_RT)
+
+
+addPeer("KUKACommanderROS", "KUKACommander")
+
+// Standart connection policy
+var ConnPolicy cp
+cp.type = DATA
+
+// Connection between FRIServer and KUKACommander
+connect("FRIServer.fromKRL", "KUKACommander.fromKRL", cp)
+connect("FRIServer.toKRL", "KUKACommander.toKRL", cp)
+
+connect("FRIServer.FRIState", "KUKACommander.FRIState", cp)
+connect("FRIServer.RobotState", "KUKACommander.RobotState", cp)
+
+connect("FRIServer.desJntImpedance", "KUKACommander.desJntImpedance", cp)
+connect("FRIServer.desCartImpedance", "KUKACommander.desCartImpedance", cp)
+
+connect("FRIServer.msrJointState", "KUKACommander.msrJointState", cp)
+connect("FRIServer.msrCartPos", "KUKACommander.msrCartPos", cp)
+connect("FRIServer.msrExtCartWrench", "KUKACommander.msrExtCartWrench", cp)
+
+connect("KUKACommander.desiredJntPos", "FRIServer.desJntPos", cp)
+connect("KUKACommander.desiredJntVel", "FRIServer.desJntVel", cp)
+connect("KUKACommander.desiredCartPos", "FRIServer.desCartPos", cp)
+connect("KUKACommander.desCartForce", "FRIServer.desAddTcpWrench", cp)
+connect("KUKACommander.desJntForce", "FRIServer.desAddJntTrq", cp)
+
+connect("FRIServer.counter", "FTSensor.Trigger", cp)
+
+// Connect certain outputs with ROS topics for simple communication between Orocos and ROS
+stream("FRIServer.timestamp", ros.topic("/iros/pbd/timestamp")) 
+stream("FRIServer.msrJointState", ros.topic("/iros/pbd/dmp/JointPos")) 
+
+stream("FRIServer.msrCartPos", ros.topic("/iros/pbd/dmp/CartPose")) 
+stream("FRIServer.msrExtCartWrench", ros.topic("/iros/pbd/dmp/CartWrench"))
+stream("FRIServer.msrExtJointTorque", ros.topic("/iros/pbd/dmp/JointTorques")) 
+
+stream("FTSensor.ForcePort", ros.topic("/iros/pbd/dmp/FTForce"))
+stream("FTSensor.TorquePort", ros.topic("/iros/pbd/dmp/FTTorque"))
+
+
+
+// call configure
+FRIServer.configure()
+FTSensor.configure()
+KUKACommander.configure()
+KUKACommanderROS.configure()
+
+
+// Start the server
+FRIServer.start()
+FTSensor.start()
+KUKACommander.start()
+KUKACommanderROS.start()

@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen
+END
+Polynomials
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/Polynomials
+END
+AdolcForward
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/AdolcForward
+END
+NumericalDiff
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/NumericalDiff
+END
+AlignedVector3
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/AlignedVector3
+END
+IterativeSolvers
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/IterativeSolvers
+END
+MPRealSupport
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/MPRealSupport
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/CMakeLists.txt
+END
+Splines
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/Splines
+END
+Skyline
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/Skyline
+END
+FFT
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/FFT
+END
+BVH
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/BVH
+END
+OpenGLSupport
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/OpenGLSupport
+END
+MoreVectorization
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/MoreVectorization
+END
+KroneckerProduct
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/KroneckerProduct
+END
+LevenbergMarquardt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/LevenbergMarquardt
+END
+NonLinearOptimization
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/NonLinearOptimization
+END
+SVD
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/SVD
+END
+MatrixFunctions
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/MatrixFunctions
+END
+ArpackSupport
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/ArpackSupport
+END
+AutoDiff
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/AutoDiff
+END
+SparseExtra
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/Eigen/SparseExtra
+END

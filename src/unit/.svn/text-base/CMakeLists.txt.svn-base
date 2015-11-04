@@ -1,0 +1,76 @@
+# Declare the version of the CMake API for forward-compatibility
+cmake_minimum_required(VERSION 2.8)
+
+
+# Declare the name of the CMake Project
+project(unit)
+set(DCMAKE_BUILD_TYPE=Release)
+set(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} -std=c++0x  -fmessage-length=0 ")
+
+
+#set(CMAKE_BUILD_TYPE Release)
+# Find and get all the information about the roscpp package
+find_package(roscpp REQUIRED)
+find_package(utils REQUIRED)
+find_package(main REQUIRED)
+find_package(catkin REQUIRED rospy std_msgs genmsg  message_generation)
+FIND_PACKAGE( Boost 1.40 COMPONENTS program_options REQUIRED )
+#generate_messages(DEPENDENCIES std_msgs)
+
+
+add_service_files(
+	DIRECTORY srv
+	FILES
+	from_robot.srv
+	for_double.srv
+	for_feedback.srv
+)
+
+generate_messages(DEPENDENCIES std_msgs)
+
+# Declare this project as a catkin package and export the necessary build flags
+catkin_package(
+	#INCLUDE_DIRS include
+	LIBRARIES unit
+	CATKIN_DEPENDS roscpp
+  )
+
+
+
+# Add the local headers and the headers from roscpp
+include_directories( include ${catkin_INCLUDE_DIRS})
+include_directories(include ${roscpp_INCLUDE_DIRS}  ${utils_INCLUDE_DIRS} ${main_INCLUDE_DIRS})
+include_directories ("${PROJECT_SOURCE_DIR}/eigen")
+include_directories("/home/spacemaster09/ode-0.12/ode/src/joints")
+include_directories("/usr/local/include")
+INCLUDE_DIRECTORIES( ${Boost_INCLUDE_DIR} )
+
+link_directories("/usr/local/lib")
+
+
+add_executable(unit_sim unit_similarity_test.cpp )
+add_executable(boost_first boost_first.cpp )
+add_executable(fresh fresh_short.cpp )
+add_executable(fresh_single fresh_single.cpp )
+add_executable(fresh_single_y fresh_single_y.cpp )
+add_executable(fresh_double fresh_double.cpp )
+add_executable(fresh_double_ros fresh_double_ros.cpp )
+add_executable(fresh_test fresh_test.cpp )
+add_executable(fresh_feedback fresh_feedback.cpp )
+add_executable(fresh_feedback_double fresh_feedback_double.cpp )
+
+
+
+
+target_link_libraries(unit_sim ${roscpp_LIBRARIES} utils ode main)
+target_link_libraries(boost_first ${roscpp_LIBRARIES} ${Boost_LIBRARIES} utils ode main)
+target_link_libraries(fresh ${roscpp_LIBRARIES} utils ode main)
+target_link_libraries(fresh_single ${roscpp_LIBRARIES} utils ode main)
+target_link_libraries(fresh_single_y ${roscpp_LIBRARIES} utils ode main)
+target_link_libraries(fresh_double ${roscpp_LIBRARIES} utils ode main)
+target_link_libraries(fresh_double_ros ${roscpp_LIBRARIES} utils ode main)
+target_link_libraries(fresh_test ${roscpp_LIBRARIES} utils ode main)
+target_link_libraries(fresh_feedback ${roscpp_LIBRARIES} utils ode main)
+target_link_libraries(fresh_feedback_double ${roscpp_LIBRARIES} utils ode main)
+
+

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/Eigen/src/SparseQR
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/Eigen/src/SparseQR/CMakeLists.txt
+END
+SparseQR.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/Eigen/src/SparseQR/SparseQR.h
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/Eigen/src/Householder
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/Eigen/src/Householder/CMakeLists.txt
+END
+HouseholderSequence.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/Eigen/src/Householder/HouseholderSequence.h
+END
+BlockHouseholder.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/Eigen/src/Householder/BlockHouseholder.h
+END
+Householder.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/Eigen/src/Householder/Householder.h
+END

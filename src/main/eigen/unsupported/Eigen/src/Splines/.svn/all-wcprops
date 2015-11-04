@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/unsupported/Eigen/src/Splines
+END
+SplineFitting.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/unsupported/Eigen/src/Splines/SplineFitting.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/unsupported/Eigen/src/Splines/CMakeLists.txt
+END
+Spline.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/unsupported/Eigen/src/Splines/Spline.h
+END
+SplineFwd.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/unsupported/Eigen/src/Splines/SplineFwd.h
+END

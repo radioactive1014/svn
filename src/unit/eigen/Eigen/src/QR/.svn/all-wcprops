@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/Eigen/src/QR
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/Eigen/src/QR/CMakeLists.txt
+END
+HouseholderQR_MKL.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/Eigen/src/QR/HouseholderQR_MKL.h
+END
+ColPivHouseholderQR.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/Eigen/src/QR/ColPivHouseholderQR.h
+END
+ColPivHouseholderQR_MKL.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/Eigen/src/QR/ColPivHouseholderQR_MKL.h
+END
+HouseholderQR.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/Eigen/src/QR/HouseholderQR.h
+END
+FullPivHouseholderQR.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/Eigen/src/QR/FullPivHouseholderQR.h
+END

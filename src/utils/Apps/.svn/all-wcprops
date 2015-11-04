@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/Apps
+END
+AllProjects_Release.props
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/Apps/AllProjects_Release.props
+END
+AllProjects_Debug.props
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/Apps/AllProjects_Debug.props
+END

@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench
+END
+sparse_trisolver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/sparse_trisolver.cpp
+END
+eig33.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/eig33.cpp
+END
+bench_reverse.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/bench_reverse.cpp
+END
+bench_norm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/bench_norm.cpp
+END
+sparse_dense_product.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/sparse_dense_product.cpp
+END
+quat_slerp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/quat_slerp.cpp
+END
+benchFFT.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/benchFFT.cpp
+END
+benchmark_suite
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/benchmark_suite
+END
+BenchUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/BenchUtil.h
+END
+benchEigenSolver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/benchEigenSolver.cpp
+END
+sparse_setter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/sparse_setter.cpp
+END
+benchBlasGemm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/benchBlasGemm.cpp
+END
+benchGeometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/benchGeometry.cpp
+END
+sparse_transpose.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/sparse_transpose.cpp
+END
+check_cache_queries.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/check_cache_queries.cpp
+END
+basicbench.cxxlist
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/basicbench.cxxlist
+END
+sparse_lu.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/sparse_lu.cpp
+END
+sparse_cholesky.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/sparse_cholesky.cpp
+END
+BenchSparseUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/BenchSparseUtil.h
+END
+basicbenchmark.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/basicbenchmark.h
+END
+bench_sum.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/bench_sum.cpp
+END
+vdw_new.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/vdw_new.cpp
+END
+benchmarkSlice.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/benchmarkSlice.cpp
+END
+benchmarkXcwise.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/benchmarkXcwise.cpp
+END
+benchCholesky.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/benchCholesky.cpp
+END
+benchmarkX.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/benchmarkX.cpp
+END
+bench_gemm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/bench_gemm.cpp
+END
+sparse_randomsetter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/sparse_randomsetter.cpp
+END
+BenchTimer.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/BenchTimer.h
+END
+spmv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/spmv.cpp
+END
+benchVecAdd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/benchVecAdd.cpp
+END
+bench_unrolling
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/bench_unrolling
+END
+quatmul.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/quatmul.cpp
+END
+benchmark.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/benchmark.cpp
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/README.txt
+END
+geometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/geometry.cpp
+END
+product_threshold.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/product_threshold.cpp
+END
+basicbenchmark.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/basicbenchmark.cpp
+END
+sparse_product.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/sparse_product.cpp
+END
+bench_multi_compilers.sh
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/bench/bench_multi_compilers.sh
+END

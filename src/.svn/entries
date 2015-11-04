@@ -1,0 +1,80 @@
+10
+
+dir
+1774
+https://robosvn.org.aalto.fi/svn/irgroup/software/rokon_new/src
+https://robosvn.org.aalto.fi/svn/irgroup
+
+
+
+2015-11-04T16:20:04.812489Z
+1774
+pappum1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+de713671-043d-4c98-ad75-4a0a33dbfa8c
+
+camera
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2015-11-04T16:15:29.277273Z
+25355606f72457b43d20a72c65af5607
+2015-11-04T16:20:04.812489Z
+1774
+pappum1
+has-props
+
+
+svn:special
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+49
+
+build
+dir
+
+unit
+dir
+
+utils
+dir
+
+app
+dir
+
+main
+dir
+

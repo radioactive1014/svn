@@ -1,0 +1,2 @@
+
+Modification of Franz's work. One new component was created in /src directory under the name "commander.cpp". The deployer setup_kuka_commander.ops was modified for this work. 

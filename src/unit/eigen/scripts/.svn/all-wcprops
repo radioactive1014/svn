@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/scripts
+END
+relicense.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/scripts/relicense.py
+END
+check.in
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/scripts/check.in
+END
+cdashtesting.cmake.in
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/scripts/cdashtesting.cmake.in
+END
+release.in
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/scripts/release.in
+END
+buildtests.in
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/scripts/buildtests.in
+END
+eigen_gen_docs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/scripts/eigen_gen_docs
+END
+debug.in
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/scripts/debug.in
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/scripts/CMakeLists.txt
+END
+eigen_gen_credits.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/scripts/eigen_gen_credits.cpp
+END

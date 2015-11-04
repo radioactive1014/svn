@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/unsupported/Eigen/src/MatrixFunctions
+END
+MatrixPower.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixPower.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/unsupported/Eigen/src/MatrixFunctions/CMakeLists.txt
+END
+MatrixFunctionAtomic.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixFunctionAtomic.h
+END
+MatrixSquareRoot.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixSquareRoot.h
+END
+MatrixFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixFunction.h
+END
+MatrixExponential.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixExponential.h
+END
+MatrixLogarithm.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixLogarithm.h
+END
+StemFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/unsupported/Eigen/src/MatrixFunctions/StemFunction.h
+END

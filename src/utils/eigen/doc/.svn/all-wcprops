@@ -1,0 +1,335 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc
+END
+TutorialMatrixClass.dox
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TutorialMatrixClass.dox
+END
+TopicMultithreading.dox
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TopicMultithreading.dox
+END
+TutorialGeometry.dox
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TutorialGeometry.dox
+END
+SparseLinearSystems.dox
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/SparseLinearSystems.dox
+END
+HiPerformance.dox
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/HiPerformance.dox
+END
+TutorialBlockOperations.dox
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TutorialBlockOperations.dox
+END
+A05_PortingFrom2To3.dox
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/A05_PortingFrom2To3.dox
+END
+TopicEigenExpressionTemplates.dox
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TopicEigenExpressionTemplates.dox
+END
+TutorialReductionsVisitorsBroadcasting.dox
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TutorialReductionsVisitorsBroadcasting.dox
+END
+eigendoxy_footer.html.in
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/eigendoxy_footer.html.in
+END
+TopicResizing.dox
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TopicResizing.dox
+END
+TopicScalarTypes.dox
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TopicScalarTypes.dox
+END
+QuickReference.dox
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/QuickReference.dox
+END
+tutorial.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/tutorial.cpp
+END
+A10_Eigen2SupportModes.dox
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/A10_Eigen2SupportModes.dox
+END
+B01_Experimental.dox
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/B01_Experimental.dox
+END
+InsideEigenExample.dox
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/InsideEigenExample.dox
+END
+TutorialSparse_example_details.dox
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TutorialSparse_example_details.dox
+END
+TutorialMatrixArithmetic.dox
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TutorialMatrixArithmetic.dox
+END
+eigendoxy_layout.xml.in
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/eigendoxy_layout.xml.in
+END
+StructHavingEigenMembers.dox
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/StructHavingEigenMembers.dox
+END
+TopicLazyEvaluation.dox
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TopicLazyEvaluation.dox
+END
+Overview.dox
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/Overview.dox
+END
+TopicLinearAlgebraDecompositions.dox
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TopicLinearAlgebraDecompositions.dox
+END
+PreprocessorDirectives.dox
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/PreprocessorDirectives.dox
+END
+SparseQuickReference.dox
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/SparseQuickReference.dox
+END
+Eigen_Silly_Professor_64x64.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/Eigen_Silly_Professor_64x64.png
+END
+TemplateKeyword.dox
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TemplateKeyword.dox
+END
+TutorialSparse.dox
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TutorialSparse.dox
+END
+WrongStackAlignment.dox
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/WrongStackAlignment.dox
+END
+eigendoxy_header.html.in
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/eigendoxy_header.html.in
+END
+StorageOrders.dox
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/StorageOrders.dox
+END
+CustomizingEigen.dox
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/CustomizingEigen.dox
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/CMakeLists.txt
+END
+UsingIntelMKL.dox
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/UsingIntelMKL.dox
+END
+TopicAliasing.dox
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TopicAliasing.dox
+END
+TutorialMapClass.dox
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TutorialMapClass.dox
+END
+UnalignedArrayAssert.dox
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/UnalignedArrayAssert.dox
+END
+StlContainers.dox
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/StlContainers.dox
+END
+TutorialArrayClass.dox
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TutorialArrayClass.dox
+END
+TopicAssertions.dox
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TopicAssertions.dox
+END
+AsciiQuickReference.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/AsciiQuickReference.txt
+END
+eigendoxy.css
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/eigendoxy.css
+END
+PassingByValue.dox
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/PassingByValue.dox
+END
+Doxyfile.in
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/Doxyfile.in
+END
+TopicVectorization.dox
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TopicVectorization.dox
+END
+TutorialAdvancedInitialization.dox
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TutorialAdvancedInitialization.dox
+END
+eigendoxy_tabs.css
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/eigendoxy_tabs.css
+END
+FunctionsTakingEigenTypes.dox
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/FunctionsTakingEigenTypes.dox
+END
+ClassHierarchy.dox
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/ClassHierarchy.dox
+END
+FixedSizeVectorizable.dox
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/FixedSizeVectorizable.dox
+END
+eigen_navtree_hacks.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/eigen_navtree_hacks.js
+END
+QuickStartGuide.dox
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/QuickStartGuide.dox
+END
+TutorialLinearAlgebra.dox
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/TutorialLinearAlgebra.dox
+END
+Manual.dox
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/doc/Manual.dox
+END

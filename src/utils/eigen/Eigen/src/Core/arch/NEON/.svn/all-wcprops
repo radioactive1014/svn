@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/Eigen/src/Core/arch/NEON
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/Eigen/src/Core/arch/NEON/CMakeLists.txt
+END
+Complex.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/Eigen/src/Core/arch/NEON/Complex.h
+END
+PacketMath.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/Eigen/src/Core/arch/NEON/PacketMath.h
+END

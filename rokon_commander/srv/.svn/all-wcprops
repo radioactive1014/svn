@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/irgroup/!svn/ver/822/software/ROS-Groovy/trunk/orocos/KUKACommander/srv
+END
+set_bool.srv
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/srv/set_bool.srv
+END
+set_cart_imp.srv
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/srv/set_cart_imp.srv
+END
+set_cart_wrench.srv
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irgroup/!svn/ver/822/software/ROS-Groovy/trunk/orocos/KUKACommander/srv/set_cart_wrench.srv
+END
+set_jnt_imp.srv
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/srv/set_jnt_imp.srv
+END
+get_fri_state.srv
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/srv/get_fri_state.srv
+END
+set_fri_ctrl.srv
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/irgroup/!svn/ver/626/software/ROS-Groovy/trunk/orocos/KUKACommander/srv/set_fri_ctrl.srv
+END
+cart_lin_motion.srv
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/srv/cart_lin_motion.srv
+END
+get_quat_from_rpy.srv
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/srv/get_quat_from_rpy.srv
+END
+set_jnt_torques.srv
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irgroup/!svn/ver/822/software/ROS-Groovy/trunk/orocos/KUKACommander/srv/set_jnt_torques.srv
+END
+get_bool.srv
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/srv/get_bool.srv
+END
+joint_ptp_motion.srv
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/srv/joint_ptp_motion.srv
+END
+cart_ptp_motion.srv
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/srv/cart_ptp_motion.srv
+END
+move_to_cart_pos.srv
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/srv/move_to_cart_pos.srv
+END
+get_fri_ctrl.srv
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/srv/get_fri_ctrl.srv
+END
+move_to_jnt_pos.srv
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/srv/move_to_jnt_pos.srv
+END

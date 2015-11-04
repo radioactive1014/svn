@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/Eigen/src/LU
+END
+PartialPivLU_MKL.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/Eigen/src/LU/PartialPivLU_MKL.h
+END
+FullPivLU.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/Eigen/src/LU/FullPivLU.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/Eigen/src/LU/CMakeLists.txt
+END
+Determinant.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/Eigen/src/LU/Determinant.h
+END
+Inverse.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/Eigen/src/LU/Inverse.h
+END
+PartialPivLU.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/utils/eigen/Eigen/src/LU/PartialPivLU.h
+END

@@ -1,0 +1,110 @@
+10
+
+dir
+1774
+https://robosvn.org.aalto.fi/svn/irgroup/software/rokon_new/src/utils/eigen/unsupported/Eigen/src
+https://robosvn.org.aalto.fi/svn/irgroup
+
+
+
+2015-11-04T16:20:04.812489Z
+1774
+pappum1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+de713671-043d-4c98-ad75-4a0a33dbfa8c
+
+LevenbergMarquardt
+dir
+
+NonLinearOptimization
+dir
+
+SVD
+dir
+
+MatrixFunctions
+dir
+
+AutoDiff
+dir
+
+SparseExtra
+dir
+
+Polynomials
+dir
+
+Eigenvalues
+dir
+
+NumericalDiff
+dir
+
+IterativeSolvers
+dir
+
+Splines
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2015-11-04T13:53:54.000000Z
+8c78291a0bde4acfc056dda019e2b99b
+2015-11-04T16:20:04.812489Z
+1774
+pappum1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+395
+
+Skyline
+dir
+
+BVH
+dir
+
+FFT
+dir
+
+MoreVectorization
+dir
+
+KroneckerProduct
+dir
+

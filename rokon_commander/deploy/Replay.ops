@@ -1,0 +1,156 @@
+/**
+ * Configuration and startup file for Dynamic Movement Primitives
+ */
+
+/*  Possible types:
+	0 = Joints
+  	1 = Position
+  	2 = Pose
+  	3 = PoseForceZ
+ */
+var int type = 0
+var int to_ros = 1
+
+// Load necessary components
+
+import("rtt_rosnode")
+import("ocl")
+import("lwr_fri")
+import("kuka_lwr_fri")
+import("KUKACommander")
+import("Execution")
+import("KUKAInterface")
+import("FTSensor")
+
+loadComponent("FRIServer", "lwr_fri::FRIServerRT")
+loadComponent("KUKACommander", "iros::KUKACommander")
+loadComponent("KUKACommanderROS", "iros::KUKACommanderROS")
+loadComponent("ExecutionController", "iros::orocos::pbd::dmp::execution::Controller")
+
+if(type == 0) then {
+	loadComponent("KUKAInterface", "iros::orocos::pbd::KUKAInterfaceJoints")
+} else if(type == 1) then {
+	loadComponent("KUKAInterface", "iros::orocos::pbd::KUKAInterfacePosition")
+} else if(type == 2) then {
+	loadComponent("KUKAInterface", "iros::orocos::pbd::KUKAInterfacePose")
+} else if(type == 3) then {
+	loadComponent("KUKAInterface", "iros::orocos::pbd::KUKAInterfacePoseForceZ")
+	loadComponent("FTSensor", "iros::FTSensor")
+}
+
+// HighestPriority = 99
+// LowestPriority = 1
+
+
+// Not periodic, highest priority, real-time scheduler
+setActivity("FRIServer", 0, HighestPriority, ORO_SCHED_RT)
+FRIServer.udp_port=49938
+
+
+
+setActivity("KUKACommander", 0, 70, ORO_SCHED_RT)
+setActivity("KUKACommanderROS", 0.01, 50, ORO_SCHED_RT)
+setActivity("KUKAInterface", 0.001, 50, ORO_SCHED_RT)
+setActivity("ExecutionController", 0, 70, ORO_SCHED_RT)
+if(type == 3) then {
+	setActivity("FTSensor", 0.001, HighestPriority, ORO_SCHED_RT)
+}
+
+
+addPeer("KUKACommanderROS", "KUKACommander")
+addPeer("KUKAInterface", "KUKACommander")
+addPeer("ExecutionController", "KUKAInterface")
+
+// Standart connection policy
+var ConnPolicy cp
+cp.type = DATA
+
+// Connection between FRIServer and KUKACommander
+connect("FRIServer.fromKRL", "KUKACommander.fromKRL", cp)
+connect("FRIServer.toKRL", "KUKACommander.toKRL", cp)
+
+connect("FRIServer.FRIState", "KUKACommander.FRIState", cp)
+connect("FRIServer.RobotState", "KUKACommander.RobotState", cp)
+
+connect("FRIServer.desJntImpedance", "KUKACommander.desJntImpedance", cp)
+connect("FRIServer.desCartImpedance", "KUKACommander.desCartImpedance", cp)
+
+connect("FRIServer.msrJointState", "KUKACommander.msrJointState", cp)
+connect("FRIServer.msrCartPos", "KUKACommander.msrCartPos", cp)
+connect("FRIServer.msrExtCartWrench", "KUKACommander.msrExtCartWrench", cp)
+
+
+connect("FRIServer.FRIState", "ExecutionController.friState", cp)
+connect("FRIServer.counter", "ExecutionController.counter", cp)
+
+connect("KUKACommander.desiredJntPos", "FRIServer.desJntPos", cp)
+connect("KUKACommander.desiredJntVel", "FRIServer.desJntVel", cp)
+connect("KUKACommander.desiredCartPos", "FRIServer.desCartPos", cp)
+
+connect("ExecutionController.desState", "KUKAInterface.desState", cp)
+connect("KUKAInterface.msrState", "ExecutionController.msrState", cp)
+connect("ExecutionController.desStartState", "KUKAInterface.start_state", cp)
+
+if(type == 0) then {
+	connect("KUKAInterface.desPosition", "FRIServer.desJntPos", cp)
+	connect("FRIServer.msrJointState", "KUKAInterface.msrPosition", cp)
+} else if(type == 1 || type == 2) then {
+	connect("KUKAInterface.desPosition", "FRIServer.desCartPos", cp)
+	connect("FRIServer.msrCartPos", "KUKAInterface.msrPosition", cp)
+} else if(type == 3) then {
+	connect("KUKAInterface.desPosition", "FRIServer.desCartPos", cp)
+	connect("FRIServer.msrCartPos", "KUKAInterface.msrPosition", cp)
+	connect("KUKAInterface.desForce", "FRIServer.desAddTcpWrench", cp)
+	connect("FRIServer.msrExtCartWrench", "KUKAInterface.msrForce", cp)
+	connect("FTSensor.ForcePort", "KUKAInterface.msrForceFT", cp)
+}
+
+connect("FRIServer.FRIState", "KUKAInterface.friState", cp)
+connect("KUKAInterface.prepared", "ExecutionController.in_prepared", cp)
+connect("KUKAInterface.start_pos_reached", "ExecutionController.in_start_pos_reached", cp)
+
+
+// Connect certain outputs with ROS topics for simple communication between Orocos and ROS
+
+//stream("KUKAInterface.desPositionROS", ros.topic("/iros/pbd/dmp/desPosition"))
+
+stream("ExecutionController.out_prepared", ros.topic("/iros/pbd/dmp/execution/interface/prepared"))
+stream("ExecutionController.out_finished", ros.topic("/iros/pbd/dmp/execution/interface/finished"))
+stream("ExecutionController.out_start_pos_reached", ros.topic("/iros/pbd/dmp/execution/interface/start_pos_reached"))
+
+stream("ExecutionController.prepare", ros.topic("/iros/pbd/dmp/execution/interface/prepare"))
+stream("ExecutionController.start", ros.topic("/iros/pbd/dmp/execution/interface/start"))
+stream("ExecutionController.stop", ros.topic("/iros/pbd/dmp/execution/interface/stop"))
+stream("ExecutionController.startPosition", ros.topic("/iros/pbd/dmp/execution/interface/startPosition"))
+
+if(to_ros == 1) then {
+	stream("KUKAInterface.desPositionROS", ros.topic("/iros/pbd/dmp/execution/calcPose"))
+	stream("FRIServer.msrCartPos", ros.topic("/iros/pbd/dmp/execution/msrPose"))
+	stream("KUKAInterface.desForceROS", ros.topic("/iros/pbd/dmp/execution/calcForce"))
+	stream("KUKAInterface.cmdForceROS", ros.topic("/iros/pbd/dmp/execution/cmdForce"))
+	stream("FTSensor.ForcePort", ros.topic("/iros/pbd/dmp/execution/msrForce"))
+	stream("FTSensor.TorquePort", ros.topic("/iros/pbd/dmp/execution/msrTorque"))
+	stream("ExecutionController.canonical", ros.topic("/iros/pbd/dmp/execution/phase_variable"))
+	stream("ExecutionController.temporal_coupling", ros.topic("/iros/pbd/dmp/execution/temporal_coupling"))	
+}
+stream("FRIServer.desJntPos", ros.topic("/iros/pbd/dmp/JointPos")) 
+
+// call configure
+FRIServer.configure()
+KUKACommander.configure()
+KUKACommanderROS.configure()
+KUKAInterface.configure()
+ExecutionController.configure()
+
+
+// Start the server
+FRIServer.start()
+KUKACommander.start()
+KUKACommanderROS.start()
+KUKAInterface.start()
+ExecutionController.start()
+
+if(type == 3) then {
+	FTSensor.configure()
+	FTSensor.start()
+}

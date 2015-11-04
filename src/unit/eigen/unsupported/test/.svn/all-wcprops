@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test
+END
+jacobisvd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/jacobisvd.cpp
+END
+polynomialutils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/polynomialutils.cpp
+END
+bdcsvd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/bdcsvd.cpp
+END
+forward_adolc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/forward_adolc.cpp
+END
+FFTW.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/FFTW.cpp
+END
+NumericalDiff.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/NumericalDiff.cpp
+END
+alignedvector3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/alignedvector3.cpp
+END
+matrix_function.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/matrix_function.cpp
+END
+svd_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/svd_common.h
+END
+matrix_exponential.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/matrix_exponential.cpp
+END
+mpreal_support.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/mpreal_support.cpp
+END
+gmres.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/gmres.cpp
+END
+splines.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/splines.cpp
+END
+polynomialsolver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/polynomialsolver.cpp
+END
+FFT.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/FFT.cpp
+END
+BVH.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/BVH.cpp
+END
+matrix_power.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/matrix_power.cpp
+END
+dgmres.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/dgmres.cpp
+END
+openglsupport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/openglsupport.cpp
+END
+kronecker_product.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/kronecker_product.cpp
+END
+matrix_square_root.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/matrix_square_root.cpp
+END
+levenberg_marquardt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/levenberg_marquardt.cpp
+END
+NonLinearOptimization.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/NonLinearOptimization.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/CMakeLists.txt
+END
+minres.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/minres.cpp
+END
+sparse_extra.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/sparse_extra.cpp
+END
+autodiff.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/autodiff.cpp
+END
+matrix_functions.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/unsupported/test/matrix_functions.h
+END

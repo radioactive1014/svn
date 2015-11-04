@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/620/software/ROS-Groovy/trunk/orocos/KUKACommander/typekit/type_info
+END
+KUKACommanderData___std__string.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/typekit/type_info/KUKACommanderData___std__string.cpp
+END
+BoostSerialization.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/typekit/type_info/BoostSerialization.hpp
+END
+Registration.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/typekit/type_info/Registration.hpp
+END
+__std__vector__double__.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/typekit/type_info/__std__vector__double__.cpp
+END

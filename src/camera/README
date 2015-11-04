@@ -1,0 +1,10 @@
+important files:
+
+ 1. fix_double.cpp : for double axis position of the ball. 
+ 2. fix.cpp : for single axis(x axis) position of the ball. 
+
+
+other files: 
+
+ 3. click.cpp and click_pub.cpp: to get the position of the corners of the platfrom from mouse click.
+ 4. check.cpp : color dectection and object tracking. 

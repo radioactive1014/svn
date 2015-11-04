@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/lib/pkgconfig
+END
+moveit_resources.pc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/lib/pkgconfig/moveit_resources.pc
+END
+unit.pc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/lib/pkgconfig/unit.pc
+END
+app.pc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/lib/pkgconfig/app.pc
+END
+openni_camera.pc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/lib/pkgconfig/openni_camera.pc
+END
+utils.pc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/lib/pkgconfig/utils.pc
+END
+main.pc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/lib/pkgconfig/main.pc
+END
+kuka_moveit_configuration.pc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/lib/pkgconfig/kuka_moveit_configuration.pc
+END
+lwr_description.pc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/lib/pkgconfig/lwr_description.pc
+END
+camera.pc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/lib/pkgconfig/camera.pc
+END
+pr2_moveit_config.pc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/lib/pkgconfig/pr2_moveit_config.pc
+END

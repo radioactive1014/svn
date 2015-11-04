@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg
+END
+MoveGroupActionResult.msg
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/MoveGroupActionResult.msg
+END
+MoveGroupAction.msg
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/MoveGroupAction.msg
+END
+PlaceActionResult.msg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/PlaceActionResult.msg
+END
+PlaceAction.msg
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/PlaceAction.msg
+END
+MoveGroupResult.msg
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/MoveGroupResult.msg
+END
+PlaceResult.msg
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/PlaceResult.msg
+END
+MoveGroupActionGoal.msg
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/MoveGroupActionGoal.msg
+END
+PlaceActionGoal.msg
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/PlaceActionGoal.msg
+END
+MoveGroupGoal.msg
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/MoveGroupGoal.msg
+END
+MoveGroupActionFeedback.msg
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/MoveGroupActionFeedback.msg
+END
+PlaceActionFeedback.msg
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/PlaceActionFeedback.msg
+END
+PlaceGoal.msg
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/PlaceGoal.msg
+END
+PickupActionResult.msg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/PickupActionResult.msg
+END
+MoveGroupFeedback.msg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/MoveGroupFeedback.msg
+END
+PickupAction.msg
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/PickupAction.msg
+END
+PlaceFeedback.msg
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/PlaceFeedback.msg
+END
+PickupResult.msg
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/PickupResult.msg
+END
+PickupActionGoal.msg
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/PickupActionGoal.msg
+END
+PickupGoal.msg
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/PickupGoal.msg
+END
+PickupActionFeedback.msg
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/PickupActionFeedback.msg
+END
+PickupFeedback.msg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/moveit_msgs/msg/PickupFeedback.msg
+END

@@ -1,0 +1,59 @@
+
+
+This is a very brief description of the sofware. Details of the software architecture will follow. Each package directory also includes a README file, please also refer to that.
+
+
+Total 5 ros packages are developed for this work: 
+
+ 1. app
+ 2. camera
+ 3. main
+ 4. unit
+ 5. utils
+
+
+
+ *******camera*******
+ This pacakge is responsible for dectecting the red ball on the white platform. It detects the red object and find the ceter of the object. Pixel position of the center of the ball is published via a ros topic /from_camera(for one axis) or /from_cameraX(for double axis).
+
+
+**********main******
+ 
+Includes and generated necessary library for simulation and optimization. For this work, the simulation parameters such as friction co-efficient,ERP and CFM were modified in UnityOde.cpp file, inside the function "nearCallback (void *data, dGeomID o1, dGeomID o2)". 
+
+The simulation step can also be modified in UnityOde.cpp file in function "stepOde(int pause)" 
+
+*********utils*******
+Includes and generated necessary library for simulation and optimization.
+
+ 
+ 
+*********unit*******
+
+This package is responsible for simulation and optimization. For the function of a specific node, refer to the README file in the package directory. A node in this package is part of a
+request/response ROS-service, where it acts as a server. It receives the request with the ball position and joint postion of the robot. In turn it provides the control action after simulation and optimization.   
+
+
+*******app***
+A node in this package does the following:
+ 1. Collect the ball position by subscribing to topic--> /from_cameraX (or /from_camera)
+ 2.Collect joint angle position by subscribing to topic--> /iros/pbd/dmp/JointPos (need to deploy the OROCOS component, details are given later )
+ 3. Acts as client, send the position and joint data to the server(simulation and optimization) and wait for the response.
+ 4. After getting the response from the server, it sends the control data to robot via FRI by pulishing the data using the topic--> /pid 
+ 
+
+*************OROCOS COMPONENTS*************
+
+In package rokon_commander. Needs to be build seperately. A new orocos component for this work was created:  /rokon_commander/src/commander.cpp 
+
+The deployer /rokon_commander/deploy/setup_kuka_commander.ops   is modifies for this work. 
+
+
+The orocos component commander reads the control data from the ros topic "/pid" using the port "fromRos" and sends the control data to robot using port "desVelPos". 
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/unit/cmake
+END
+unit-msg-paths.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/unit/cmake/unit-msg-paths.cmake
+END
+unitConfig.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/unit/cmake/unitConfig.cmake
+END
+unit-msg-extras.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/unit/cmake/unit-msg-extras.cmake
+END
+unitConfig-version.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/irgroup/!svn/ver/1774/software/rokon_new/devel/share/unit/cmake/unitConfig-version.cmake
+END

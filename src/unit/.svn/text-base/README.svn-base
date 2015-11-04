@@ -1,0 +1,13 @@
+Important files: 
+
+ 1. fresh_feedback_double.cpp : simulation and optimization with position and velocity feedback.
+ 2. fresh_double_ros.cpp : Only with position feedback. 
+
+
+Other files: 
+
+ 3. fresh_double.cpp: Stand alone executable. Other executables are implemented to work as a part of ros action service.
+ 4. fresh_feedack.cpp: with position,velocity and angle feedback.(angle feedback correction does not work yet) 
+ 5. fresh_single.cpp: For single axis control (x-axis), only with position feedback.
+ 6. fresh_single_y.cpp :  For single axis control (y-axis), only with position feedback.
+ 7. unit_similiarity_test.cpp : To test the similarity between simulation and the real world.

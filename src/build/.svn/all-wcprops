@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/build
+END
+CATKIN_IGNORE
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/build/CATKIN_IGNORE
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/build/Makefile
+END
+CTestTestfile.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/build/CTestTestfile.cmake
+END
+CMakeCache.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/build/CMakeCache.txt
+END
+cmake_install.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/build/cmake_install.cmake
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/irgroup/!svn/ver/1774/software/rokon_new/code
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/irgroup/!svn/ver/1774/software/rokon_new/code/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/irgroup/!svn/ver/1774/software/rokon_new/code/Makefile
+END
+CMakeCache.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/irgroup/!svn/ver/1774/software/rokon_new/code/CMakeCache.txt
+END
+cmake_install.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/irgroup/!svn/ver/1774/software/rokon_new/code/cmake_install.cmake
+END
+object_detection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/irgroup/!svn/ver/1774/software/rokon_new/code/object_detection.cpp
+END
+object
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/irgroup/!svn/ver/1774/software/rokon_new/code/object
+END

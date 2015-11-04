@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/unsupported/Eigen/src/SVD
+END
+TODOBdcsvd.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/unsupported/Eigen/src/SVD/TODOBdcsvd.txt
+END
+JacobiSVD.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/unsupported/Eigen/src/SVD/JacobiSVD.h
+END
+BDCSVD.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/unsupported/Eigen/src/SVD/BDCSVD.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/unsupported/Eigen/src/SVD/CMakeLists.txt
+END
+SVDBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/unsupported/Eigen/src/SVD/SVDBase.h
+END
+doneInBDCSVD.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/main/eigen/unsupported/Eigen/src/SVD/doneInBDCSVD.txt
+END

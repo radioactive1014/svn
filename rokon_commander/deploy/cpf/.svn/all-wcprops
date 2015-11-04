@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/irgroup/!svn/ver/620/software/ROS-Groovy/trunk/orocos/KUKACommander/deploy/cpf
+END
+CartesianGeneratorConfig.cpf
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/deploy/cpf/CartesianGeneratorConfig.cpf
+END
+nAxesGeneratorConfig.cpf
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/deploy/cpf/nAxesGeneratorConfig.cpf
+END

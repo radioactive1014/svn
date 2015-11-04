@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/irgroup/!svn/ver/935/software/ROS-Groovy/trunk/orocos/KUKACommander/src
+END
+KUKACommander.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/irgroup/!svn/ver/935/software/ROS-Groovy/trunk/orocos/KUKACommander/src/KUKACommander.cpp
+END
+cmake_install.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/irgroup/!svn/ver/705/software/ROS-Groovy/trunk/orocos/KUKACommander/src/cmake_install.cmake
+END
+KUKACommanderROS.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/irgroup/!svn/ver/935/software/ROS-Groovy/trunk/orocos/KUKACommander/src/KUKACommanderROS.cpp
+END
+KUKACommander.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/irgroup/!svn/ver/935/software/ROS-Groovy/trunk/orocos/KUKACommander/src/KUKACommander.hpp
+END
+KUKACommanderROS.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/irgroup/!svn/ver/854/software/ROS-Groovy/trunk/orocos/KUKACommander/src/KUKACommanderROS.hpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/irgroup/!svn/ver/705/software/ROS-Groovy/trunk/orocos/KUKACommander/src/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/irgroup/!svn/ver/705/software/ROS-Groovy/trunk/orocos/KUKACommander/src/Makefile
+END

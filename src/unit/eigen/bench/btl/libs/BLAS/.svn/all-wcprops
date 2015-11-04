@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/bench/btl/libs/BLAS
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/bench/btl/libs/BLAS/CMakeLists.txt
+END
+blas_interface.hh
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/bench/btl/libs/BLAS/blas_interface.hh
+END
+blas_interface_impl.hh
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/bench/btl/libs/BLAS/blas_interface_impl.hh
+END
+c_interface_base.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/bench/btl/libs/BLAS/c_interface_base.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/bench/btl/libs/BLAS/main.cpp
+END
+blas.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/irgroup/!svn/ver/1774/software/rokon_new/src/unit/eigen/bench/btl/libs/BLAS/blas.h
+END

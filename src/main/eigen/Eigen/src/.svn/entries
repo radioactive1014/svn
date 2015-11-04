@@ -1,0 +1,140 @@
+10
+
+dir
+1774
+https://robosvn.org.aalto.fi/svn/irgroup/software/rokon_new/src/main/eigen/Eigen/src
+https://robosvn.org.aalto.fi/svn/irgroup
+
+
+
+2015-11-04T16:20:04.812489Z
+1774
+pappum1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+de713671-043d-4c98-ad75-4a0a33dbfa8c
+
+Core
+dir
+
+Geometry
+dir
+
+misc
+dir
+
+SVD
+dir
+
+SuperLUSupport
+dir
+
+OrderingMethods
+dir
+
+PardisoSupport
+dir
+
+SparseLU
+dir
+
+StlSupport
+dir
+
+SparseCholesky
+dir
+
+SparseQR
+dir
+
+PaStiXSupport
+dir
+
+IterativeLinearSolvers
+dir
+
+SparseCore
+dir
+
+Eigen2Support
+dir
+
+Eigenvalues
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2015-11-04T13:53:51.000000Z
+2ebef3f13165f24e7bc3f09b782f73b2
+2015-11-04T16:20:04.812489Z
+1774
+pappum1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+308
+
+MetisSupport
+dir
+
+LU
+dir
+
+Householder
+dir
+
+plugins
+dir
+
+Cholesky
+dir
+
+SPQRSupport
+dir
+
+CholmodSupport
+dir
+
+QR
+dir
+
+UmfPackSupport
+dir
+
+Jacobi
+dir
+

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/irgroup/!svn/ver/911/software/ROS-Groovy/trunk/orocos/KUKACommander/deploy
+END
+setup_kuka_commander.ops
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/deploy/setup_kuka_commander.ops
+END
+test.cpf
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/irgroup/!svn/ver/588/software/ROS-Groovy/trunk/orocos/KUKACommander/deploy/test.cpf
+END
+JointTrajectoryImitation.ops
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/irgroup/!svn/ver/822/software/ROS-Groovy/trunk/orocos/KUKACommander/deploy/JointTrajectoryImitation.ops
+END
+Imitation.ops
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/irgroup/!svn/ver/972/software/ROS-Groovy/trunk/orocos/KUKACommander/deploy/Imitation.ops
+END
+SimpleTrajectoryImitation.ops
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/irgroup/!svn/ver/630/software/ROS-Groovy/trunk/orocos/KUKACommander/deploy/SimpleTrajectoryImitation.ops
+END

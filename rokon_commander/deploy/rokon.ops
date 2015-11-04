@@ -1,0 +1,80 @@
+/**
+ * Configuration and startup file for the KUKACommander and KUKACommanderROS
+ * 
+ * The purpose is to publish relevant information to ROS topics 
+ */
+
+// Load necessary components
+
+import("rtt_rosnode")
+import("lwr_fri")
+import("kuka_lwr_fri")
+import("rokon_commander")
+
+//import("naxes_motion_control")
+
+
+
+
+
+loadComponent("commander", "iros::Commander")
+
+
+//loadService("nAxesController", "marshalling")
+
+
+
+// HighestPriority = 99
+// LowestPriority = 1
+
+
+// Not periodic, highest priority, real-time scheduler
+//setActivity("FRIServer", 0.0001, HighestPriority, ORO_SCHED_RT)
+
+
+//setActivity("FRIServer", 0.05, HighestPriority, ORO_SCHED_RT)
+
+setActivity("commander", 0.05, HighestPriority, ORO_SCHED_RT)
+//FRIServer.udp_port=49938
+
+
+
+
+// Run timer each 10ms with lowest priority
+//setActivity("KUKACommander", 0.01, 70, ORO_SCHED_RT)  //original
+
+//setActivity("KUKACommanderROS", 0.001, 50, ORO_SCHED_RT)
+
+//setActivity("nAxesController", 0, 50, ORO_SCHED_RT)
+
+
+
+// Standart connection policy
+var ConnPolicy cp
+cp.type = DATA  // original 
+
+
+
+
+
+
+stream("commander.fromRos", ros.topic("/chatter")) 
+
+
+
+
+
+ 
+// call configure
+
+commander.configure()
+//nAxesController.configure()
+
+
+
+
+// Start the server
+
+commander.start()
+
+//nAxesController.start()
